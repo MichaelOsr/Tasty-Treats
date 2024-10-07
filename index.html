@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASTY TREATS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f0e1;
+            color: #4e3b31;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8d6e63;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .hero {
+            padding: 50px 20px;
+        }
+        .description {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+        .box-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .box {
+            background-color: #d7c1b5;
+            border: 1px solid #4e3b31;
+            border-radius: 8px;
+            padding: 20px;
+            width: 30%;
+            margin: 10px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #8d6e63;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .box {
+                width: 80%;
+            }
+            .box-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        nav {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            nav {
+                display: block;
+                background-color: #4e3b31;
+                color: white;
+                text-align: center;
+                padding: 10px;
+            }
+            nav a {
+                color: white;
+                text-decoration: none;
+                padding: 10px 15px;
+                display: inline-block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TASTY TREATS</h1>
+</header>
+
+<section class="hero">
+    <h2>Handuk Dessert Pertama di Malang!</h2>
+    <p class="description">
+        Nikmati kelezatan dan kesegaran buah dalam setiap suapan. TASTY TREATS siap memberikan sumber energi yang membuat suasana hati Anda lebih baik!
+    </p>
+</section>
+
+<div class="box-container">
+    <div class="box">
+        <h3>Cookies and Cream</h3>
+        <p>Harga: Rp 17.000</p>
+    </div>
+    <div class="box">
+        <h3>Matcha</h3>
+        <p>Harga: Rp 17.000</p>
+    </div>
+    <div class="box">
+        <h3>Mangga</h3>
+        <p>Harga: Rp 17.000</p>
+    </div>
+</div>
+
+<footer>
+    <p><strong>Alamat:</strong> Tana Tidar A-8, Malang, Jawa Timur, 65151</p>
+    <p><strong>Kontak Telepon:</strong> 0855-4668-6880</p>
+    <p><strong>Instagram:</strong> @tastytreats.mlg</p>
+    <p><strong>Sejarah Singkat:</strong> Berdiri sejak 2023, TASTY TREATS menawarkan towel cake dessert berbahan dasar spong cake dan butter cream, menggunakan gula tropicana slim yang populer di Asia.</p>
+    <p><strong>Menu:</strong> Tersedia secara online dan offline. Pembelian bisa dilakukan melalui Instagram: @tastytreat.</p>
+</footer>
+
+</body>
+</html>
